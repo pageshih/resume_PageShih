@@ -137,7 +137,7 @@ table {
     --space: 16px;
     --light:#EDEBEB;
     --gray: #959595;
-    --dark: #252525;
+    --dark: #343636;
     --link: #89B7BA;
     --sec-lg-pd:90px;
     --sec-md-pd:32px;
@@ -484,7 +484,7 @@ em{
 }
 .icon-link a{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: calc(var(--space) * 1.25);
 }
 
 .contact-info a:hover{
@@ -547,6 +547,7 @@ em{
 .text-center{
     text-align: center;
 }
+
 .vertical-bottom{
     vertical-align: bottom;
  }
@@ -615,7 +616,10 @@ em{
     margin-left: 0;
 }
 .ms-0_3{
-    margin-left: calc(var(--space) * 0.3)
+    margin-left: calc(var(--space) * 0.3);
+}
+.ms-1_25{
+    margin-left: calc(var(--space) * 1.25);
 }
 
 .me-0_5{
